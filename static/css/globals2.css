@@ -1,0 +1,29 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/660155de6577688a3a171e38.660155df6577688a3a171e3b.48K2Xuo.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: column; /* Используйте column для вертикального стека, row для горизонтального */
+  justify-content: center; /* Центрирует содержимое по вертикали */
+  align-items: center; /* Центрирует содержимое по горизонтали */
+  height: 100vh; /* Используйте всю высоту области просмотра */
+  width: 100%; /* Полная ширина */
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

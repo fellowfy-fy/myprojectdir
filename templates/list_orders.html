@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}My Garage{% endblock title %}
+{% block extrahead %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/add_order.css' %}" />
+{% endblock %}
+
+{% block content %}
+    <input type="hidden" id="anPageName" name="page" value="add_order" />
+    <div class="container mt-3  mb-2">
+      <a href="{% url 'accounts:dashboard' %}">
+        <img src="{% static 'img/8508267-1.png' %}" alt="Dashboard" style="width: 30px; height: 30px;" />
+      </a>
+    </div>
+  
+      {% for order in orders %}
+        <div class="row">
+          <div class="col-12 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">{{ order.car }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ order.name }}</h6>
+                <img src="{{ order.component_image.url }}" alt="Component Image" class="img-fluid w-50" style="height:100px;"/>
+                {% for answer in order.answers.all %}
+                        <div class="answer-section mt-3">
+                            <h5 class="card-title">Answer from: {{ answer.user }}</h5>
+                            <p>Производитель: {{ answer.manufacturer }}</p>
+                            <p>Цена: {{ answer.price }}</p>
+                            <p>Качество: {{ answer.quality }}</p>
+                            <p>Гарантия: {{ answer.guarantee }}</p>
+                            <p>Состояние: {{ answer.status }}</p>
+                            <p>Доставка: {{ answer.delivery }}</p>
+                            <p>Номер детали: {{ answer.code }}</p>
+                            {% if answer.answer_image %}
+                                <img src="{{ answer.answer_image.url }}" alt="Answer Image" class="img-fluid w-50" style="height:100px;" />
+                            {% endif %}
+                        </div>
+                    {% empty %}
+                        <p class="text-muted">No answers yet.</p>
+                    {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {% endblock %}

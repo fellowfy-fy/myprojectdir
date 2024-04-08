@@ -1,0 +1,36 @@
+:root { 
+  --aqua-squeeze: #e6edf2;
+  --black: #000000;
+  --rhino: #274761;
+ 
+  --font-size-l: 15px;
+  --font-size-m: 14px;
+  --font-size-s: 11px;
+  --font-size-xl: 19px;
+  --font-size-xxl: 20px;
+ 
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+.montserrat-bold-rhino-11px {
+  color: var(--rhino);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-rhino-15px {
+  color: var(--rhino);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-rhino-19px {
+  color: var(--rhino);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}

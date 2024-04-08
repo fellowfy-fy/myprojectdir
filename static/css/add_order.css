@@ -1,0 +1,151 @@
+/* screen - add_order */
+
+.add_order {
+    align-items: flex-start;
+    background-color: var(--aqua-squeeze);
+    display: flex;
+    gap: 8px;
+    height: 667px;
+    padding: 18px 22px;
+    width: 393px;
+  }
+  
+  .add_order .x8508267-1 {
+    height: 35px;
+    object-fit: cover;
+    width: 35px;
+  }
+  
+  .add_order .flex-col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 608px;
+    width: 264px;
+  }
+  
+  .add_order .travel_car_bmv_1741-1 {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+  }
+  
+  .add_order .text-1 {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 800;
+    margin-right: 1.0px;
+    margin-top: 13px;
+    min-height: 24px;
+    min-width: 161px;
+    text-align: center;
+  }
+  
+  .add_order .overlap-group4 {
+    height: 31px;
+    margin-top: 32px;
+  }
+  
+  .add_order .text-2 {
+    left: 15px;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .add_order .rectangle-6 {
+    border: 1px solid;
+    height: 31px;
+    width: 264px;
+  }
+  
+  .add_order .overlap-group {
+    height: 31px;
+    margin-top: 20px;
+  }
+  
+  .add_order .text-3 {
+    left: 15px;
+    position: absolute;
+    top: 6px;
+  }
+  
+  .add_order .vin {
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+  }
+  
+  .add_order .overlap-group2 {
+    height: 124px;
+    margin-top: 17px;
+  }
+  
+  .add_order .text-5 {
+    left: 24px;
+    position: absolute;
+    top: 87px;
+  }
+  
+  .add_order .rectangle-33 {
+    border: 2px dashed;
+    height: 124px;
+    width: 264px;
+  }
+  
+  .add_order .carkeysicon_98578-1 {
+    height: 60px;
+    left: 102px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 60px;
+  }
+  
+  .add_order .overlap-group-1 {
+    border-radius: 21.5px;
+    height: 45px;
+    margin-right: 1.0px;
+    margin-top: 20px;
+    position: relative;
+    width: 125px;
+  }
+  
+  .add_order .text-4 {
+    color: var(--rhino);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    left: 27px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .add_order .rectangle-51 {
+    border: 3px solid;
+    border-radius: 21.5px;
+    height: 45px;
+    width: 125px;
+  }
+  
+  .add_order .overlap {
+    position: relative;
+    width: 264px;
+  }
+  
+  .add_order .rectangle {
+    border-color: var(--black);
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .add_order .text {
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  

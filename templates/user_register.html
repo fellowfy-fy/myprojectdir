@@ -1,0 +1,55 @@
+{% load static %}
+
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/u1088u1077u1075u1080u1089u1090u1088u1072u1094u1080u1103.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styleguide.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/globals.css' %}" />
+  <!-- CSS только для Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- JS, Popper.js, и jQuery для Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body style="margin: 0; background: #e6edf2">
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card p-4">
+          <img class="card-img-top" src="{% static 'img/frame-1.svg' %}" alt="Frame 1" />
+          <div class="card-body">
+            <h3 class="text-center">Создание нового аккаунта</h3>
+                        
+            {% if messages %}
+              {% for message in messages %}
+                <div class="alert {{ message.tags }}">
+                    {{ message }}
+                </div>
+              {% endfor %}
+            {% endif %}
+
+            <form method="POST" action="{% url 'accounts:user-register' %}">
+              {% csrf_token %}
+              {{ form|crispy }}
+              <input type="submit" class="btn btn-primary w-100 btn-block p-2 btn-register" value="Зарегистрироваться">
+            </form>
+            <div class="text-center mb-3">
+              <a href="{% url 'accounts:user-register' %}">Регистрация</a> |
+              <a href="{% url 'accounts:user-login' %}">Логин</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,277 @@
+/* screen - u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 */
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 {
+  align-items: flex-end;
+  /* background-color: var(--aqua-squeeze); */
+  display: flex;
+  flex-direction: column;
+  height: 667px;
+  padding: 24px 11px;
+  width: 393px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .overlap-group-1 {
+  height: 204px;
+  position: relative;
+  width: 361px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .rectangle-52 {
+  border-radius: 25px 51px 25px 25px;
+  cursor: pointer;
+  height: 194px;
+  left: 0;
+  top: 10px;
+  width: 343px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .rectangle-53 {
+  border-radius: 25px 0px 25px 25px;
+  height: 26px;
+  left: 322px;
+  top: 0;
+  width: 39px;
+}
+
+.ellipse-1 {
+  border: 3px solid;
+  border-color: var(--rhino);
+  border-radius: 20px;
+  height: 40px;
+  left: 43px;
+  position: absolute;
+  top: 70px;
+  width: 40px;
+}
+
+.vector {
+  height: 20px;
+  left: 7px;
+  position: absolute;
+  top: 8px;
+  width: 20px;
+}
+
+.text-11 {
+  color: var(--rhino);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 800;
+  left: 98px;
+  position: absolute;
+  top: 77px;
+  white-space: nowrap;
+}
+
+.clip-path-group {
+  height: 71px;
+  left: 35px;
+  position: absolute;
+  top: 130px;
+  width: 275px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .ru {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 800;
+  left: 331px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+  width: 23px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 40px;
+  margin-right: 8px;
+  margin-top: 31px;
+  min-width: 350px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 40px;
+  height: 254px;
+  min-width: 220px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 254px;
+  width: 90px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .overlap-group {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--rhino);
+  border-radius: 9px;
+  display: flex;
+  height: 90px;
+  min-width: 90px;
+  padding: 0 14px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .analysis_analytics_m {
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .text-12 {
+  margin-left: 3.0px;
+  margin-top: 5px;
+  min-height: 26px;
+  min-width: 61px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .overlap-group3 {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--rhino);
+  border-radius: 9px;
+  display: flex;
+  height: 90px;
+  justify-content: flex-end;
+  margin-top: 13px;
+  min-width: 90px;
+  padding: 27px 14px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .group-7 {
+  height: 30px;
+  width: 60px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .text-15 {
+  margin-right: 1.0px;
+  margin-top: 4px;
+  min-height: 26px;
+  min-width: 45px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .flex-col-1 {
+  gap: 5px;
+  min-height: 121px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .group {
+  height: 60px;
+  width: 60px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .text-13 {
+  min-height: 26px;
+  min-width: 42px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .flex-col-2 {
+  min-height: 239px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .overlap-group6 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--rhino);
+  border-radius: 9px;
+  display: flex;
+  height: 90px;
+  min-width: 90px;
+  padding: 14px 12px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .text-14 {
+  margin-left: 9.0px;
+  margin-top: 5px;
+  min-height: 26px;
+  min-width: 43px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .overlap-group5 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--rhino);
+  border-radius: 9px;
+  display: flex;
+  height: 90px;
+  margin-top: 12px;
+  min-width: 90px;
+  padding: 0 15px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .text-16 {
+  margin-left: 7.0px;
+  margin-top: 5px;
+  min-height: 11px;
+  white-space: nowrap;
+  width: 37px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .overlap-group1 {
+  align-items: center;
+  border-radius: 42px;
+  border: 3px solid var(--rhino);
+  height: 84px;
+  width: 262px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .clip-path-group-1 {
+  left: 189px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .group-11 {
+  height: 40px;
+  left: 111px;
+  position: absolute;
+  top: 22px;
+  width: 40px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .clip-path-group-2 {
+  left: 33px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .rectangle-61 {
+  border-radius: 42px;
+  height: 84px;
+  left: 0;
+  top: 0;
+  width: 262px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .clip-path-group-3 {
+  height: 40px;
+  position: absolute;
+  top: 22px;
+  width: 40px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .flex-col-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+}
+
+.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .rectangle {
+  border: 3px solid;
+  position: absolute;
+}
+
+.text {
+  letter-spacing: 0;
+  line-height: normal;
+}

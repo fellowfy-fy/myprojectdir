@@ -1,0 +1,150 @@
+/* screen - u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 */
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 {
+  align-items: flex-start;
+  background-color: var(--aqua-squeeze);
+  display: flex;
+  gap: 8px;
+  height: 667px;
+  padding: 18px 22px;
+  width: 393px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .x8508267-1 {
+  height: 35px;
+  object-fit: cover;
+  width: 35px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 608px;
+  width: 264px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .travel_car_bmv_1741-1 {
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .text-1 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 800;
+  margin-right: 1.0px;
+  margin-top: 13px;
+  min-height: 24px;
+  min-width: 161px;
+  text-align: center;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .overlap-group4 {
+  height: 31px;
+  margin-top: 32px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .text-2 {
+  left: 15px;
+  position: absolute;
+  top: 5px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .rectangle-6 {
+  border: 1px solid;
+  height: 31px;
+  width: 264px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .overlap-group {
+  height: 31px;
+  margin-top: 20px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .text-3 {
+  left: 15px;
+  position: absolute;
+  top: 6px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .vin {
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .overlap-group2 {
+  height: 124px;
+  margin-top: 17px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .text-5 {
+  left: 24px;
+  position: absolute;
+  top: 87px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .rectangle-33 {
+  border: 2px dashed;
+  height: 124px;
+  width: 264px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .carkeysicon_98578-1 {
+  height: 60px;
+  left: 102px;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 60px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .overlap-group-1 {
+  border-radius: 21.5px;
+  height: 45px;
+  margin-right: 1.0px;
+  margin-top: 20px;
+  position: relative;
+  width: 125px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .text-4 {
+  color: var(--rhino);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  left: 27px;
+  position: absolute;
+  top: 10px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .rectangle-51 {
+  border: 3px solid;
+  border-radius: 21.5px;
+  height: 45px;
+  width: 125px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .overlap {
+  position: relative;
+  width: 264px;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .rectangle {
+  border-color: var(--black);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.u1076u1086u1073u1072u1074u1080u1090u1100-u1072u1074u1090u1086 .text {
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

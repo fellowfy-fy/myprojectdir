@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "tiny-slider": "^2.9.4"
+  }
+}

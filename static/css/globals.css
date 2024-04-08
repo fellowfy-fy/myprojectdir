@@ -1,0 +1,46 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800");
+
+/* Основные стили */
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Медиа-запросы для адаптации под мобильные устройства */
+
+@media (max-width: 768px) {
+  /* Стили для мобильных устройств */
+  html, body {
+    width: 100%;
+    overflow-x: hidden; /* Предотвращает горизонтальную прокрутку */
+  }
+
+  .container-center-horizontal {
+    padding: 0 20px; /* Добавляет небольшой отступ по краям на мобильных устройствах */
+  }
+
+  /* Дополнительные адаптивные стили можно добавить здесь */
+}
+
+
+ 

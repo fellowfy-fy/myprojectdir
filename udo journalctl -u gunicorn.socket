@@ -1,0 +1,11 @@
+Unit gunicornsudo.service could not be found.
+Unit systemctl.service could not be found.
+Unit start.service could not be found.
+[0;1;32m●[0m gunicorn.socket - gunicorn socket
+     Loaded: loaded (/etc/systemd/system/gunicorn.socket; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (listening)[0m since Tue 2024-04-02 14:50:10 UTC; 42min ago
+   Triggers: [0;1;31m●[0m gunicorn.service
+     Listen: /run/gunicorn.sock (Stream)
+     CGroup: /system.slice/gunicorn.socket
+
+Apr 02 14:50:10 rlukcscqnm systemd[1]: Listening on gunicorn socket.

@@ -1,0 +1,35 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png'%}" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+     <link rel="stylesheet" type="text/css" href="{% static 'css/u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styleguide.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/globals.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css'%}" />
+  </head>
+  <body style="margin: 0; background: #000000">
+    <div class="container-center-horizontal">
+      <img class="tuning" src="{% static 'img/tuning_top.png' %}" alt="tuning" />
+      <img class="tuning1" src="{% static 'img/tuning1.svg' %}" alt="tuning" />
+      <div class="tuning2">Посмотри какой может быть тюнинг</div>
+      <img class="tuning3" src="{% static 'img/tuning3.png' %}" alt="tuning" />
+      <a class="tuning4" href="{% url 'accounts:dashboard' %}">
+        <img  class="tuning-image" src="{% static 'img/tuning4.png' %}" alt="tuning" />
+        <span class="tuning-text">Внешний тюнинг</span>
+      </a>
+      <a class="tuning5" href="{% url 'accounts:dashboard' %}">
+        <img class="tuning-image" src="{% static 'img/tuning5.png' %}" alt="tuning" />
+        <span class="tuning-text">Детейлинг автомобиля</span>
+      </a>
+      <a class="tuning-link" href="{% url 'accounts:dashboard' %}">
+        <img class="tuning-image" src="{% static 'img/tuning6.png' %}" alt="tuning" />
+        <span class="tuning-text">Электронный тюнинг</span>
+      </a>
+    
+    </div>
+    </body>
+</html>
