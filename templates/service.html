@@ -79,15 +79,15 @@
                     </div>
                 </div>
                     <div class="button-container text-center">
-                        <button class="btn rounded-circle" type="button">
-                          <img class="btn-image" src="{% static 'img/clip-path-group-19@2x.png' %}" alt="Clip path group">
-                        </button>
-                        <button class="btn rounded-circle" type="button">
-                          <img class="btn-image" src="{% static 'img/group-11-1@2x.png' %}" alt="Group 11">
-                        </button>
-                        <a href="{% url 'accounts:logout' %}" class="btn rounded-circle">
-                          <img class="btn-image" src="{% static 'img/clip-path-group-20@2x.png' %}" alt="Clip path group">
+                        
+                      <div class="overlap-group1">
+                        <img class="clip-path-group-1 clip-path-group-3" src="{% static 'img/clip-path-group-19@2x.png'%}" alt="Clip path group" />
+                        <img class="group-11" src="{% static 'img/group-11-1@2x.png'%}" alt="Group 11" />
+                        
+                        <a href="{% url 'accounts:logout' %}" >
+                          <img class="clip-path-group-2 clip-path-group-3" src="{% static 'img/clip-path-group-20@2x.png'%}" alt="Clip path group" style="z-index: 100;"/>
                         </a>
+                      </div>
                     </div>                                                
                 </div>
               </div>
@@ -96,5 +96,18 @@
         </div>
       </div>
     </div>
+    <script>
+      function adjustToViewport() {
+          var viewportHeight = window.innerHeight;
+          var viewportWidth = window.innerWidth;
+          var container = document.querySelector('.container-center-horizontal');
+  
+          container.style.height = viewportHeight + 'px';
+          container.style.width = viewportWidth + 'px';
+      }
+  
+      window.onload = adjustToViewport;
+      window.onresize = adjustToViewport;
+  </script>
     </body>
 </html>

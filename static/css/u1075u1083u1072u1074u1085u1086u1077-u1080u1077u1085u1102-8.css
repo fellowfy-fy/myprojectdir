@@ -17,7 +17,7 @@
 }
 
 .u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .rectangle-52 {
-  border-radius: 25px 51px 25px 25px;
+  border-radius: 25px 80px 25px 25px;
   cursor: pointer;
   height: 194px;
   left: 0;
@@ -28,7 +28,7 @@
 .u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .rectangle-53 {
   border-radius: 25px 0px 25px 25px;
   height: 26px;
-  left: 322px;
+  left: 303px;
   top: 0;
   width: 39px;
 }
@@ -45,11 +45,11 @@
 }
 
 .vector {
-  height: 20px;
-  left: 7px;
-  position: absolute;
-  top: 8px;
-  width: 20px;
+  height: 20px !important;
+  left: 8px !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 20px !important;
 }
 
 .text-11 {
@@ -64,11 +64,11 @@
 }
 
 .clip-path-group {
-  height: 71px;
-  left: 35px;
-  position: absolute;
-  top: 130px;
-  width: 275px;
+  height: 71px !important;
+  left: 35px  !important;
+  position: absolute  !important;
+  top: 130px  !important;
+  width: 275px !important;
 }
 
 .u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .ru {
@@ -76,11 +76,11 @@
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-m);
   font-weight: 800;
-  left: 331px;
+  left: 312px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 2px;
+  top: 4px;
   white-space: nowrap;
   width: 23px;
 }
@@ -89,7 +89,8 @@
   align-items: flex-start;
   display: flex;
   gap: 40px;
-  margin-right: 8px;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 31px;
   min-width: 350px;
 }
@@ -216,7 +217,7 @@
   width: 37px;
 }
 
-.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .overlap-group1 {
+.overlap-group1 {
   align-items: center;
   border-radius: 42px;
   border: 3px solid var(--rhino);
@@ -228,11 +229,15 @@
   margin-right: auto;
 }
 
-.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .clip-path-group-1 {
+.clip-path-group-1 {
+  position: absolute;
+  top: 22px;
+  width: 40px;
+  height: 40px;
   left: 189px;
 }
 
-.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .group-11 {
+ .group-11 {
   height: 40px;
   left: 111px;
   position: absolute;
@@ -240,7 +245,11 @@
   width: 40px;
 }
 
-.u1075u1083u1072u1074u1085u1086u1077-u1080u1077u1085u1102-8 .clip-path-group-2 {
+.clip-path-group-2 {
+  position: absolute;
+  top: 22px;
+  width: 40px;
+  height: 40px;
   left: 33px;
 }
 

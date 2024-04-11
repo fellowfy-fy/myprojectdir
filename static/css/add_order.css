@@ -1,6 +1,6 @@
 /* screen - add_order */
 
-.add_order {
+/* .add_order {
     align-items: flex-start;
     background-color: var(--aqua-squeeze);
     display: flex;
@@ -8,7 +8,7 @@
     height: 667px;
     padding: 18px 22px;
     width: 393px;
-  }
+  } */
   
   .add_order .x8508267-1 {
     height: 35px;
@@ -16,7 +16,7 @@
     width: 35px;
   }
   
-  .add_order .flex-col {
+  /* .add_order .flex-col {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -148,4 +148,4 @@
     line-height: normal;
     white-space: nowrap;
   }
-  
+   */

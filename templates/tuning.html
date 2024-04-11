@@ -1,27 +1,42 @@
 {% extends "base.html" %}
 {% load static %}
-{% load crispy_forms_tags %}
-{% block title %}My Garage{% endblock title %}
 {% block content %}
-  <div style="margin: 0; background: #000000">
-    <div class="container-center-horizontal">
-      <img class="tuning" src="{% static 'img/tuning_top.png' %}" alt="tuning" />
-      <img class="tuning1" src="{% static 'img/tuning1.svg' %}" alt="tuning" />
-      <div class="tuning2">Посмотри какой может быть тюнинг</div>
-      <img class="tuning3" src="{% static 'img/tuning3.png' %}" alt="tuning" />
-      <a class="tuning4" href="{% url 'accounts:dashboard' %}">
-        <img  class="tuning-image" src="{% static 'img/tuning4.png' %}" alt="tuning" />
-        <span class="tuning-text">Внешний тюнинг</span>
-      </a>
-      <a class="tuning5" href="{% url 'accounts:dashboard' %}">
-        <img class="tuning-image" src="{% static 'img/tuning5.png' %}" alt="tuning" />
-        <span class="tuning-text">Детейлинг автомобиля</span>
-      </a>
-      <a class="tuning-link" href="{% url 'accounts:dashboard' %}">
-        <img class="tuning-image" src="{% static 'img/tuning6.png' %}" alt="tuning" />
-        <span class="tuning-text">Электронный тюнинг</span>
-      </a>
-    
-    </div>
+
+<div class="container-center-horizontal" style="background: #000000">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <img class="img-fluid" src="{% static 'img/tuning_top.png' %}" alt="tuning" />
+            </div>
+            <div class="col-12 text-center mt-3">
+                <img class="img-fluid" src="{% static 'img/tuning1.svg' %}" alt="tuning" />
+            </div>
+            <div class="col-12 text-center text-white mt-3">
+                <div class="tuning2">Посмотри какой может быть тюнинг</div>
+            </div>
+            <div class="col-12 text-center mt-3">
+                <img class="img-fluid" src="{% static 'img/tuning3.png' %}" alt="tuning" />
+            </div>
+            <div class="col-12 text-center mt-3">
+                <a href="{% url 'accounts:dashboard' %}">
+                    <img class="img-fluid" src="{% static 'img/tuning4.png' %}" alt="tuning" />
+                    <span class="tuning-text">Внешний тюнинг</span>
+                </a>
+            </div>
+            <div class="col-12 text-center mt-3">
+                <a href="{% url 'accounts:dashboard' %}">
+                    <img class="img-fluid" src="{% static 'img/tuning5.png' %}" alt="tuning" />
+                    <span class="tuning-text">Детейлинг автомобиля</span>
+                </a>
+            </div>
+            <div class="col-12 text-center mt-3">
+                <a href="{% url 'accounts:dashboard' %}">
+                    <img class="img-fluid" src="{% static 'img/tuning6.png' %}" alt="tuning" />
+                    <span class="tuning-text">Электронный тюнинг</span>
+                </a>
+            </div>
+        </div>
+    </div> 
 </div>
+
 {% endblock content %}

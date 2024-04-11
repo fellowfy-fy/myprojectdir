@@ -60,9 +60,9 @@
   }
 
   .addorderconfirm {
-    position: relative;
-    width: 393px;
-    height: 667px;
+    position: absolute;
+    width: 375px;
+    height: 650px;
     background: #E6EDF2;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -74,15 +74,16 @@
 
   .messageaoc {
     position: absolute;
-    width: 402px;
+    width: auto;
     height: 116px;
     left: 6px;
-    top: 247px;
+    top: 260px;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 39px;
     color: #274761;
+    padding: 15px;
   }
 
   .buttonaoc {
@@ -125,15 +126,13 @@
   }
 
   .messageabout {
-    position: absolute;
     width: 383px;
-    top: 54px;
-    left: 11px;
+    top: 20px;
     white-space: normal;
   
     font-family: 'Montserrat', sans-serif;
     color: #274761;
-    font-size: clamp(16px, 5vw, 30px);
+    font-size: 20px;
   
     /* Улучшения */
     text-align: center; /* Центрирование заголовка */
@@ -141,15 +140,12 @@
 }
   
   .messageabout1 {
-    position: absolute;
-    width: 371px;
+    width: auto;
     height: auto; /* Автоматическая высота для адаптации к содержимому */
-    top: 108px; /* Увеличенное расстояние до заголовка */
-    left: 11px;
   
     font-family: 'Montserrat', sans-serif;
     font-weight: 400; /* Нормальная жирность для улучшения читаемости */
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify; /* Выравнивание по ширине для улучшения читаемости */
     line-height: 24px; /* Увеличенный межстрочный интервал */
     color: #274761;
@@ -243,7 +239,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 колонки */
     grid-gap: 20px; /* Отступы между элементами */
-    max-width: 900px; /* Максимальная ширина контейнера */
+    max-width: 500px; /* Максимальная ширина контейнера */
     margin-left: auto; /* Автоматический левый отступ */
     margin-right: auto; /* Автоматический правый отступ */
   }
@@ -257,17 +253,19 @@
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 10px; /* Скругление углов */
+    width: 100px;
+    height: 100px;
   }
   
   .service-item img {
-    width: 50px; /* Примерная ширина иконок */
+    width: 35px; /* Примерная ширина иконок */
     height: auto;
     margin-bottom: 10px; /* Отступ от иконки до текста */
   }
   
   .service-item span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
   }
 
